@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+label {
+  margin-right: 15px;
+}
+
+label:after {
+  content: ":";
+  margin-left: 2px;
+}
+
+input,
+input:focus,
+input:active {
+  padding: 5px 0;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+
+button {
+  margin: 15px 0;
+  padding: 10px 25px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 22px;
+}
